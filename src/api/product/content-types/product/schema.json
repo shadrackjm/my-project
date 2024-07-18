@@ -15,9 +15,6 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "blocks"
-    },
     "banner": {
       "type": "media",
       "multiple": false,
@@ -34,6 +31,9 @@
     },
     "category": {
       "type": "string"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

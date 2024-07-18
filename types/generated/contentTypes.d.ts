@@ -375,10 +375,10 @@ export interface ApiProductProduct extends Schema.CollectionType {
   };
   attributes: {
     title: Attribute.String;
-    description: Attribute.Blocks;
     banner: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     pricing: Attribute.Decimal;
     category: Attribute.String;
+    description: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
